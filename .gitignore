@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables (KEEP SECRETS OUT OF GIT!)
+.env
+
+# FAISS index data (large binary files)
+data/faiss_index.bin
+data/faiss_index_mapping.pkl
+
+# Training dataset (large)
+data/vggface2/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+node_modules/
+
+weights/*.pth
+weights/*.pt
+

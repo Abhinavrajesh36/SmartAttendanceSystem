@@ -1,0 +1,56 @@
+# Smart Attendance System — Requirements
+
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Deep Learning & Computer Vision
+torch==2.1.1
+torchvision==0.16.1
+opencv-python==4.8.1.78
+numpy==1.24.4
+pillow==10.1.0
+
+# -----------------------------------------------------------------------
+# Face Recognition — InsightFace buffalo_l
+# Provides pretrained ArcFace (ResNet-50, 512-D) + RetinaFace detector.
+# Weights are auto-downloaded to ~/.insightface/ on first run (~300 MB).
+# Replaces the broken custom ArcFace + YOLOv9 loaders that required
+# manually supplied weight files which were never included in the project.
+# -----------------------------------------------------------------------
+insightface==0.7.3
+onnxruntime==1.16.3        # CPU inference for InsightFace ONNX models
+# onnxruntime-gpu==1.16.3  # Use this instead if you have CUDA
+
+# Face landmark alignment (optional — mediapipe)
+mediapipe==0.10.9
+
+# FAISS for similarity search
+faiss-cpu==1.7.4
+
+# Utilities
+pydantic==2.5.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+aiofiles==23.2.1
+
+# Data Processing & Reporting
+pandas==2.1.3
+matplotlib==3.8.2
+
+# Email
+requests==2.31.0
+httpx==0.25.2
+
+# Development
+pytest==7.4.3
+pytest-asyncio==0.21.1
+tqdm==4.66.1
+loguru==0.7.2
