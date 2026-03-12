@@ -18,6 +18,19 @@ Camera → Frame Capture → YOLOv9 Detection → Face Alignment →
 ArcFace Embedding → FAISS Matching → Liveness Check → 
 Attendance Marking → Database Storage
 ```
+## 📸 Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Access Granted
+![Access Granted](screenshots/access_granted.png)
+
+### Registration Portal
+![Registration Portal](screenshots/registration_portal.png)
+
+### Attendance Export (Excel)
+![Attendance Excel](screenshots/attendance_excel.png)
 
 ## 📋 Prerequisites
 
@@ -404,15 +417,16 @@ Contributions are welcome! Please read our contributing guidelines.
 
 MIT License - See LICENSE file for details
 
-## 👥 Team
+## 👥 Developed By
 
-- Lead Developer: Your Name
-- ML Engineer: Team Member
-- Frontend Developer: Team Member
+- Abhinav Rajesh
+- Data Science Project 
+-Quest Innovative Solutions
+
 
 ## 📧 Contact
 
-For questions or support: your.email@example.com
+For questions or support: abhinavrajesh36@gmail.com
 
 ---
 
